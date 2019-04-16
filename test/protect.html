@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>乐美网</title>
+  <style>
+    *{
+      margin: 0px;
+      padding: 0px;
+    }
+    .border{
+      border: 1px solid red;
+    }
+    .container{
+      margin: 10px;
+      width: 250px;
+      height:355px;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 1px 1px 10px gray;
+      border-radius: 10px 10px 0px 0px;
+    }
+    .img{
+      height: 165px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position:center;
+    }
+    .title{
+      height:20px;
+      margin: 10px;
+      color: #888888;
+      font-size:14px;
+      font-weight: 700;
+    }
+    .introduce{
+      height:80px;
+      margin: 10px;
+      color: #999999;
+      font-weight: 200;
+      font-size: 12px;
+    }
+    .price{
+      height: 20px;
+      color: crimson;
+      text-align: right;
+      margin-right: 10px;
+    }
+    .hua{
+      text-decoration: line-through;
+      color: #888888;
+      font-size: 12px;
+    }
+    .xian{
+      font-size: 14px;
+      font-weight: 700;
+    }
+    .price p{
+      display: inline-block;
+    }
+    .buy{
+      height: 40px;
+      width: 100%;
+      background-color: darkorchid;
+      font-size: 20px;
+      font-weight: 700;
+      text-align: center;
+      line-height: 35px;
+      color: azure;
+      position: absolute;
+      bottom: -40px;
+      transition: all .2s ease-in-out;
+    }
+    .container:hover .buy{
+      bottom:0px;
+    }
+    .sale{
+      height: 30px;
+      width: 200px;
+      text-align: center;
+      line-height: 30px;
+      background-color: crimson;
+      transform: rotate(40deg);
+      position: absolute;
+      right: -60px;
+      top: 20px;
+      box-shadow: 2px 1px 8px gray;
+    }
+
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="sale border">热销中</div>
+<div class="img " style="background-image: url(../img/Dvz唇釉.png)"></div>
+<div class="title ">Dvz丝绒炫彩唇釉</div>
+<div class="introduce ">全新液态口红，唇釉质地稠密，有漆光般的效果，上色度极佳，呈现细致丝绒雾面质感，长时间持久不脱妆，空气感质地，有很好的亲肤性、覆盖于唇部肌肤，彰显性感又摩登的新时尚之美</div>
+<div class="price ">
+  <p><span class="hua "> 85￥</span></p>
+  <p><span class="xian ">75￥</span></p>
+</div>
+<div class="buy ">Buy</div>
+</div>
+</body>
+</html>
